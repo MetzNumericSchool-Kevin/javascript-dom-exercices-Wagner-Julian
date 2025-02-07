@@ -6,3 +6,9 @@ console.log(titre.textContent);
 
 const mot = document.querySelector("#blague_de_roger_le_sorcier");
 mot.remove();
+
+const bouton = document.querySelector("#call_archibald");
+
+bouton.addEventListener("click", () => {
+  console.log("🧙‍♂️ J'arrive, j'arrive Aventurier !.");
+});
